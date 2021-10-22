@@ -43,7 +43,7 @@ body {
   padding-right: 120px;
 }
 .caption span{
-  font-weight: 700;
+  font-weight: 600;
   color: #2959CE;
 }
 .cost p {
@@ -98,7 +98,7 @@ input{
   border: none;
   outline: none;
   color: #fff;
-  font-weight: 700;
+  font-weight: 500;
   line-height: 19px;
 }
 .nav-links{
@@ -111,7 +111,7 @@ input{
 }
 .nav-links li a {
   text-decoration: none;
-  font-weight: 700;
+  font-weight: 500;
   font-size: 18px;
   line-height: 21px;
   text-align: center;
@@ -142,7 +142,7 @@ input{
   margin: 10px 0px;
 }
 .card-title{
-  font-weight: 700;
+  font-weight: 500;
   font-size: 20px;
   line-height: 26px;
   color: #000;
@@ -152,6 +152,7 @@ input{
   font-size: 16px;
   line-height: 22px;
   color: #4A4B4C;
+  margin: 10px 0;
 }
 .card-img{
   width: 359px;
@@ -186,7 +187,7 @@ margin-right: 10px;
   align-items: center;
 }
 .delete h3{
-  font-weight: 700;
+  font-weight: 500;
   font-size: 20px;
   line-height: 26px;
   color: #000000;
@@ -210,7 +211,7 @@ margin-right: 10px;
 
 /*world part styles*/
 .world-caption{
-  font-weight: 700;
+  font-weight: 500;
   font-size: 24px;
   line-height: 28px;
   color: #000000;
@@ -234,7 +235,7 @@ margin-right: 10px;
   margin-right: 15px;
 }
 .world-title{
-  font-weight: 700;
+  font-weight: 500;
   font-size: 20px;
   line-height: 26px;
   color: #000000;
@@ -261,7 +262,7 @@ margin-right: 10px;
   height: 53px;
   background: #EAEAEA;
   border-radius: 10px;
-  font-weight: 700;
+  font-weight: 500;
   font-size: 16px;
   line-height: 19px;
   color: #000000;
@@ -279,14 +280,14 @@ margin-right: 10px;
   padding: 0 20px;
 }
 .glavniy-content h3{
-  font-weight: 700;
+  font-weight: 500;
   font-size: 24px;
   line-height: 28px;
   padding-top: 20px;
   color: #000000;
 }
 .glavniy-text{
-  font-weight: 700;
+  font-weight: 500;
   font-size: 18px;
   line-height: 24px;
   color: #000000;
@@ -349,11 +350,77 @@ footer{
 }
 .footer-bottom-text{
   width: 160px;
-  font-weight: 700;
+  font-weight: 500;
 }
 .footer-icons img{
   margin-right: 25px;
 }
 .footer-icons img:last-child{
+  margin-right: 0;
+}
+
+.article{
+  margin-right: 10px;
+}
+.article-main{
+  margin-top: 50px;
+}
+.article-logo{
+  display: flex;
+  align-items: center;
+}
+.article-logo img{
+  width: 30px;
+  height: 30px;
+  border-radius: 5px;
+  margin-right: 10px;
+}
+.article span{
+  font-size: 14px;
+  line-height: 17px;
+  color: #5E5F61
+}
+.article-title{
+  width: 797px;
+  font-weight: 500;
+  font-size: 26px;
+  line-height: 36px;
+  color: #000000;
+  margin: 10px 0;
+}
+.article-img{
+  width: 797px;
+  height: 300px;
+  border-radius: 13px;
+}
+.article-text{
+  width: 797px;
+  font-size: 20px;
+  line-height: 30px;
+  color: #000000;
+  margin-top: 20px;
+}
+.article-line{
+  border: 1px solid #d2d2d2;
+  margin: 50px 0;
+}
+.box-title{
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 28px;
+  color: #000000;
+  margin: 20px 0;
+}
+.boxes{
+  display: flex;
+}
+.box{
+  padding: 20px 18px 15px 17px;
+  width: 393px;
+  background: #F6F6F6;
+  border-radius: 15px;
+  margin-right: 10px;
+}
+.box:last-child{
   margin-right: 0;
 }
